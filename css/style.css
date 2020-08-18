@@ -1,0 +1,193 @@
+body{
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat:repeat-x;
+  background-attachment:fixed;
+  position:absolute;
+  width: 100vw;
+  margin:0;
+ backdrop-filter: blur(3px);
+}
+.header{
+  border-radius: 5px; 
+  width: auto;
+  height: auto;
+  box-shadow: 1px 2px 20px black;
+}
+.logo{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+.titre, .header i, select{
+  padding:10px;
+}
+.header a{
+  font-family:Rockwell Nova;
+    color: white;
+}
+.header a:hover, select{
+  color: #2F4F4F;
+  text-decoration: none;
+  transition: 0.5s;
+}
+a.active_head{
+	color: #2F4F4F;
+}
+.formulaire{
+  background: url(../img/bg.jpg);
+  background-size: cover;
+  backdrop-filter: blur(3px);
+  border-radius: 5px;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  box-shadow: 5px 5px 10px black;
+}
+.formulaire h3{
+  text-align: center;
+  color: grey;
+  font-family: Rockwell Nova;
+}
+.fa-user, .fa-lock, select{
+	color: white;
+}
+input[type="text"], input[type="date"], input[type="mail"], select{
+  width: 92%;
+  margin: 8px 0;
+  padding: 15px;
+  display: inline-block;
+  border: none;
+  border-bottom: 2px solid lightgrey;
+  box-sizing: border-box;
+  background: transparent;
+  outline: none;
+  color: white;
+}
+input[type="text"]:hover, input[type="date"]:hover, input[type="mail"]:hover, select{
+	border: none;
+	border-bottom: 2px solid #2F4F4F;
+	transition: 0.5s; 
+}
+::-webkit-input-placeholder{
+  color: white;
+  font-family: Rockwell Nova;
+}
+.btn-secondary{
+  width: 97%;
+}
+.forgot_password{
+  color: white;
+  float: right;
+  font-family: Gabriola;
+}
+.forgot_password:hover{
+  color: white;
+}
+.remember{
+  color: white;
+  margin: 8px 0;
+}
+input[type=checkbox]{
+	position: relative;
+	width: 50px;
+	height: 20px;
+	-webkit-appearance :none;
+	background-color: lightgrey;
+	border-radius: 10px;
+	outline: none;
+	transition: 0.5s;
+}
+input[type=checkbox]:before{
+	position: absolute;
+	content: '';
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: white;
+	transition: 0.5s;
+}
+input:checked[type=checkbox]{
+	outline: none;
+	background-color: #03a9f4;
+	transition: 0.5s;
+}
+input:checked[type=checkbox]:before{
+	left:30px;
+	transition: 0.5s;
+}
+.no_account{
+	color: white;
+	 font-size: 14px;
+}
+.footer p{
+ display: inline-block;
+ color: white;
+ font-size: 14px;
+}
+.footer p:not(.point){
+   border-bottom: 1px solid white;
+}
+.icon_sm{
+	color: white;
+}
+/*Style navbar*/
+.navbar_item{
+  border-radius: 5px; 
+  width: auto;
+  height: auto;
+  box-shadow: 1px 2px 20px black;
+  display: block;
+}
+.navbar_item h5{
+	color: white;
+  font-family: Rockwell Nova;
+	padding: 10px;
+}
+.navbar_item a{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: gray ;	
+  font-family: Rockwell Nova;
+
+}
+.navbar_item a:hover{
+  text-decoration: none;
+  color : white;
+  transition: 0.5s;
+}
+a.active{
+	color: white;
+}
+/*Style ORDER*/
+.order{
+	display :block;
+}
+.title_order{
+	color: white;
+  font-family: Rockwell Nova;
+}
+/*Style List Order*/
+.table{
+  background:transparent;
+  border:1px solid black;
+  box-shadow: 2px 5px 50px black;
+}
+.update , .delete , select{
+	text-decoration: none;
+}
+.update:hover, .delete:hover, select{
+	text-decoration: none;
+	color: white;
+}
+.update {
+	color: green;
+}
+.delete {
+	color: #A52A2A;
+}
+/*Style Table*/
+table td{
+  color: white;
+}

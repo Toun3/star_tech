@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Item management</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!-- Header -->
+	<div class="container-fluid header">
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-2 titre"><img class="logo" src="img/logo.png"></div>
+			<div class="col-md-2">
+				<a href="order.html" class="active_head"><i class="fa fa-dropbox head_im"></i>&nbsp; Item management</a>
+			</div>
+			<div class="col-md-5">
+				<a href="customer_list.html"><i class="fa fa-users head_tpm"></i>&nbsp; Third-party management</a>
+      		</div>
+			<div class="col-md-2"><a href="login.html">Log out <i class="fa fa-sign-out"></i></a>
+		</div>
+	</div>
+	</div><br>
+	<!-- Corps -->
+	<!-- Navigation Gauche -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-2 navbar_item">
+				<h5>Supply management</h5>
+				<a href="order.html" ><i class="fa fa-shopping-cart"></i>&nbsp; Order</a>
+				<a href="list_order.html" ><i class="fa fa-list"></i>&nbsp; Order list</a>
+				<h5>Stock management</h5>
+				<a href="item_list.html" ><i class="fa fa-list-ol"></i>&nbsp; Item list</a>
+				<h5>Fund management</h5>
+				<a href="sales_list.html" ><i class="fa fa-money"></i>&nbsp; Sales list</a>
+				<h5>Charges management</h5>
+				<a href="charges.html" ><i class="fa fa-tasks"></i>&nbsp; Charges</a>
+				<a href="charges_list.html" class="active"><i class="fa fa-th-list"></i>&nbsp; Charges list</a>
+			</div>
+			<!-- Contenu -->
+			<div class="col-md-1"></div>
+			<div class="col-md-8" class="list_order">
+		        <h4 class="title_order">Order List</h4>	
+				<table class="table table-dark table-borderless  table-hover">
+				    <thead>
+				      <tr>
+				        <th>Ref</th>
+				        <th>Name</th>
+				        <th>Price($)</th>
+				        <th>Date</th>				        
+				        <th>Action</th>				        
+				      </tr>
+				    </thead>
+				    <tbody>
+				      <tr>
+				        <td>C1</td>
+				        <td>Water and Electricity</td>
+				        <td>50</td>
+				        <td>24/04/2020</td>
+				        <td><a class="update" href="#">Update <i class="fa fa-wrench"></i></a>&nbsp;<a class="delete" href="#">Delete <i class="fa fa-trash"></i></a></td>
+				      </tr>
+				      <tr>
+				        <td>C2</td>
+				        <td>House rent</td>
+				        <td>250</td>
+				        <td>24/04/2020</td>
+				        <td><a class="update" href="#">Update <i class="fa fa-wrench"></i></a>&nbsp;<a class="delete" href="#">Delete <i class="fa fa-trash"></i></a></td>
+				      </tr>
+				      <tr>
+				        <td>C3</td>
+				        <td>Assurance</td>
+				        <td>100</td>
+				        <td>24/04/2020</td>
+				        <td><a class="update" href="#">Update <i class="fa fa-wrench"></i></a>&nbsp;<a class="delete" href="#">Delete <i class="fa fa-trash"></i></a></td>
+				      </tr>
+				    </tbody>
+				</table>
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+	</div><br><br><br><br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="text-center">
+					<div class="footer">
+					 	<p>Star Tech</p>
+					 	<p class="point">.</p>
+					 	<p>All you need</p>
+					 	<div class="icon_sm">
+						<i class="fa fa-facebook-square"></i>
+						<i class="fa fa-instagram"></i>
+						<i class="fa fa-linkedin-square"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>		
+</body>
+</html>
